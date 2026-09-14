@@ -1,6 +1,0 @@
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/DemoCrudApplication.java
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/controller/ItemController.java
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/exception/GlobalExceptionHandler.java
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/exception/ItemNotFoundException.java
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/model/Item.java
-/Users/sriramede/Documents/Java/docker-demo/src/main/java/com/example/democrud/service/ItemService.java
