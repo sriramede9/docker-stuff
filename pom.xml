@@ -46,7 +46,17 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!-- Bridges Spring Boot 3 Actuator observations to OpenTelemetry -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-tracing-bridge-otel</artifactId>
+        </dependency>
 
+        <!-- Exports traces via OpenTelemetry Protocol (OTLP) to Jaeger, Zipkin, or OTel Collector -->
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-exporter-otlp</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
